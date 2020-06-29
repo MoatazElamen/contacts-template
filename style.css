@@ -1,0 +1,226 @@
+*{
+  box-sizing:border-box;
+}
+body{
+ background-color:#2B3242;
+
+}
+.container{
+  width:300px;
+  height:600px;
+  position: relative;
+  margin:0 auto;
+  margin-top:20px;
+  background-color:#2D3E52;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+}
+.header{
+  display:flex;
+  width:100%;
+  height:50px;
+  align-items: center;
+  background-color: #2A2b3b;
+}
+.header div{
+ flex:1;
+ text-align:center
+}
+.header div >span {
+  cursor: pointer;
+}
+.linedown{
+  position: absolute;
+  height:3px;
+  background-color:#1CD9C6;
+  width:20px;
+  left:65px;
+}
+.Active {
+  color:white;
+}
+.messages{
+ color: #9FA2A9;
+}
+.search{
+  margin-top:10px;
+  position: relative;
+}
+.search input {
+ position: relative;
+ margin-left:10px;
+ width:280px;
+ height:30px;
+ border-radius:25px;
+ border:none;
+ outline: none;
+ padding-left:30px;
+ background-color:#273445;
+ color:white;
+ 
+}
+.search img{ 
+  position: absolute;
+  width:20px;
+  height:20px;
+  z-index: 2;
+  top:6px;
+  left:15px;
+}
+::-webkit-input-placeholder{
+  color:#20585D;
+}
+.alphabets ul {
+  position: absolute;
+  right:5px;
+  top:0;
+  
+  
+}
+.alphabets ul >li {
+  display:block;
+  position: relative;
+  margin-bottom:31px;
+  font-size:11pt;
+  color:#2A2B3B;
+}
+
+.A:not(:last-child)::after{
+  display:inline-block;
+  content:"";
+  position: absolute;
+  width:3px;
+  height:3px;
+  background:#232A3A;
+  border-radius:50%;
+  right:4px;
+  
+  bottom:-15px;
+  
+}
+.alphabets {
+  position: relative;
+}
+.contact img{
+position: relative;
+top:5px;
+left:5px;
+width:45px;
+height:45px;
+object-fit: cover;
+border-radius:50%;
+
+}
+.imageholder{
+  justify-content: center;
+  justify-items: center;
+  position: relative;
+  margin-top:5px;
+  background-color:#252C3C;
+  width:55px;
+  height:55px;
+  border-radius:50%;
+}
+.contact{
+  height:70px;
+  display:flex;
+  border-bottom:0.5px solid #1CD9C6;
+  width:260px;
+  float:right;
+  justify-items:center;
+
+  margin-top:10px;
+  margin-right:20px;
+  margin-bottom:2px;
+}
+.contactright{
+flex:1
+}
+.contactright span{
+  margin-right:7px;
+  position:relative;
+  top:25px;
+  color:#9FA2A9;
+  cursor: pointer;
+}
+.dot{
+  position:absolute;
+  top:-18px;
+  left:45px;
+  width:4px;
+  height:4px;
+  
+  font-size:25pt;
+
+}
+.contactleft{
+  display:flex;
+  flex:3;
+  position: relative;
+}
+.info{
+  display:flex;
+  flex-direction: column;
+  position:relative;
+  left:10px;
+  top:15px;
+  font-size:11px
+}
+.name{
+  font-size:13px;
+  color:#1CD9C6;
+}
+.number{
+  font-size:10px;
+  color:white;
+}
+.footer{
+  height:50px;
+  position: absolute;
+  bottom:0;
+  width:100%;
+  padding-top:55px;
+  width:100%;
+}
+.footer ul{
+  height:100%;
+  width:100%;
+  display:flex;
+  position:absolute;
+  top:-10px;
+}
+.footer ul > li {
+  display:flex;
+  flex-direction:column;
+  list-style-type: none;
+  margin-left:30px;
+  text-align: center;
+  font-size:10pt;
+}
+.footer ul > li:first-child{
+  margin-left:-15px !important;
+}
+.threedots{
+  color:white;
+  font-size:9pt;
+  position: relative;
+  top:15px;
+}
+.call{
+  font-size:10pt;
+  
+}
+.item span:first-child:not(:last-child){
+  color:#1CD9C6;
+  
+}
+.item .text{
+color:white;
+margin-top:5px;
+font-size:8pt;
+}
+.footer ul > li:first-child{
+  margin-bottom:5px !important;
+  border-bottom:2px solid #1CD9C6;
+}
